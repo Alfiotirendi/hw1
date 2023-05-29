@@ -1,0 +1,118 @@
+
+
+body
+{
+    margin: 0px;
+    background-color: rgb(159, 51, 9);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.button
+{
+    font-size: 1.0rem;
+    border-radius: 20px;
+    margin: 0px 20px;
+    padding: 4px 7px;
+}
+
+.error
+{
+    color: red;
+    height: 17.6px;
+    font-size: 0.8rem;
+}
+
+footer
+{
+    color: white;
+    background-color: black;
+    font-size: 0.8rem;
+    height: 10vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+#formlog
+{   
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 300px;
+    height: 170px;
+    padding-bottom: 10px;
+    font-size: 0.95rem;
+    text-align: center;
+    background-color: white;
+    
+}
+
+#formlog div
+{
+text-align: center;
+border-bottom: 2px solid black;
+font-size: 1.3rem; 
+padding: 4px;
+
+
+}
+
+label 
+  { 
+    display: flex;
+    justify-content: space-between;
+    margin:0px 10px;
+  }
+
+
+#log
+{
+    border: solid black 2px;
+    background-color: black;
+    color:white;
+}
+
+main
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 24vh 0px;
+   
+   
+}
+
+nav
+{
+    color: white;
+    display: flex;
+    background-color: black;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#sign
+{
+    color: white;
+    background-color: black;
+    border: solid black 2px;
+
+}
+
+.tit
+{
+    font-family:cursive;
+    font-size: 1.6rem;
+    margin-left: 10px;
+}
+

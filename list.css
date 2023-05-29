@@ -1,0 +1,165 @@
+a
+{
+    text-decoration: none;
+}
+
+body
+{
+    margin:0px;
+    background-color: rgb(159, 51, 9);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.boxinfo
+{
+padding: 5px;
+color: white;
+display: flex;
+flex-direction: column;
+font-size: 1.0rem;
+
+}
+
+footer
+{
+    color: white;
+    background-color: black;
+    font-size: 0.8rem;
+    height: 80px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    width: 100%;
+    
+}
+
+
+
+
+.gallery
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+    
+}
+
+.list
+{
+    color:white;
+    text-align: center;
+    font-size: 2rem;
+    margin: 200px 0px;
+}
+
+.meal
+{
+    background-color: darkorange;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+
+.mealimage 
+{
+    height: 200px;
+    padding: 10px;
+}
+
+#menu
+{
+    color: black;
+    display: flex;
+   
+
+}
+
+#menu div, #menu a
+{
+    margin-right: 11px;
+    background-color: azure;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+.more
+{
+    color: white;
+    background-color: black;
+    margin-top: 5px;
+    width: 33%;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+nav
+{
+    color: white;
+    display: flex;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
+
+#tit
+{
+    font-family:cursive;
+    font-size: 1.6rem;
+    margin-left: 10px;
+}
+
+
+
+section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search
+{
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    
+}
+
+#searchbar
+{
+
+width: 300px;
+
+}
+
+
+
+
+.welcome
+{
+    text-align: left;
+    color: white;
+    font-size: 1.7rem;
+    padding: 20px;
+}
+
+
