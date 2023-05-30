@@ -7,7 +7,7 @@ function search(){
 }
 
 function searchResponse(response){
-    console.log('ciao');
+    
     console.log(response);
     return response.json();
 }
@@ -15,7 +15,7 @@ function searchResponse(response){
 function jsonMeal(json){
     console.log(json);
 
-    console.log('ciaociao');
+    
     const containermeals = document.querySelector(".gallery");
     containermeals.innerHTML='';
    
@@ -29,7 +29,7 @@ function jsonMeal(json){
      box.dataset.type = json[meal].strCategory;
      box.dataset.image = json[meal].strMealThumb;
 
-   console.log('blabla');
+   
 
     const img = document.createElement('img');
     img.src = json[meal].strMealThumb;
