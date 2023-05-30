@@ -10,14 +10,14 @@ function search(){
 }
 
 function searchResponse(response){
-    console.log('ciao');
+    
     console.log(response);
     return response.json();
 }
 
 function jsonMeal(json){
     console.log(json);
-    console.log('ciaociao');
+    
     
     // if (!json.meals.items.length) {noResults(); return;}
 
@@ -34,7 +34,7 @@ function jsonMeal(json){
 
 
 
-    console.log('blabla');
+    
     const boximg = document.querySelector('.image')
     boximg.innerHTML="";
     const img = document.createElement('img');
@@ -69,9 +69,7 @@ function jsonMeal(json){
     
     const boximgsav = document.createElement('div');
     boximgsav.classList.add("favourite");
-    const saveinfo = document.createElement('div');
-    saveinfo.text = "In my list: "
-    boximgsav.appendChild(saveinfo);
+    
     infobox.appendChild(boximgsav);
     const imgsave = document.createElement('img');
 
