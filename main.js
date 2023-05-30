@@ -9,14 +9,14 @@ function search(event){
 }
 
 function searchResponse(response){
-    console.log('ciao');
+   
     console.log(response);
     return response.json();
 }
 
 function jsonMeal(json){
     console.log(json);
-    console.log('ciaociao');
+    
     const containermeals = document.querySelector(".gallery");
     containermeals.innerHTML='';
     // if (!json.meals.items.length) {noResults(); return;}
@@ -28,7 +28,7 @@ function jsonMeal(json){
      box.dataset.type = json.meals[meal].strCategory;
      box.dataset.image = json.meals[meal].strMealThumb;
 
-   console.log('blabla');
+   
 
     const img = document.createElement('img');
     img.src = json.meals[meal].strMealThumb;
